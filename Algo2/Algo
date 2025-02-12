@@ -1,0 +1,41 @@
+##Algorithme de recherche 
+       Si vous voulez trouver  un mot dans dictionnaire, suivez cette algorithme :
+
+_ouvrer le dictionnaire 
+_prener le premier mot 
+_si c est  le mot a recherche alors c est fini
+_sinon.paser à la deuxième mots de la dictionnaire
+_ainsi e suit jusqu'à trover le mots recherche 
+
+
+
+
+#comparaisons
+La recherche séquentielle :
+_longue
+_on peut le faire même si la zone de recherche n est pas ordonné 
+
+La recherche dichotomie :
+_rapide, efficace 
+_ on ne peut pas le faire si la zone de recherche n' est pas ordonné 
+
+
+
+
+##Algorithme de denonbrement
+On a des pièces de différentes valeurs (1€,2€,5€)
+Pour rendre la monaie de 12€ avec le moins de pièces posible
+Voici l' algorithme :
+_prener la pièce de 12€
+_diviser en 5€ la pièce le plus grand valeur de ce qu'on a
+_puis prenez 5€ aux nombre de la quotient 
+Puis ajouter une pièce égale à la reste
+
+
+#generalisation
+Pour n'inporte quel montant 
+_prener le montant 
+_divise le par la pièce le grand valeur de ce qu on a
+Puis rend la pièce le plus grand
+Valeur aux nombre de la quotient 
+Avec la pièce égale a la reste
